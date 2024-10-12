@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0614CA782CB804A100C66FB9 /* Exceptions for "GithubAppUIKIT" folder in "GithubAppUIKIT" target */ = {
+		06F803BB2CB8F25100E674E6 /* Exceptions for "GithubAppUIKIT" folder in "GithubAppUIKIT" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,14 +40,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0614CA522CB8049F00C66FB9 /* GithubAppUIKIT */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				0614CA782CB804A100C66FB9 /* Exceptions for "GithubAppUIKIT" folder in "GithubAppUIKIT" target */,
-			);
-			path = GithubAppUIKIT;
-			sourceTree = "<group>";
-		};
 		0614CA692CB804A100C66FB9 /* GithubAppUIKITTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GithubAppUIKITTests;
@@ -56,6 +48,14 @@
 		0614CA732CB804A100C66FB9 /* GithubAppUIKITUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GithubAppUIKITUITests;
+			sourceTree = "<group>";
+		};
+		06F803A92CB8F25100E674E6 /* GithubAppUIKIT */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				06F803BB2CB8F25100E674E6 /* Exceptions for "GithubAppUIKIT" folder in "GithubAppUIKIT" target */,
+			);
+			path = GithubAppUIKIT;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +88,7 @@
 		0614CA472CB8049F00C66FB9 = {
 			isa = PBXGroup;
 			children = (
-				0614CA522CB8049F00C66FB9 /* GithubAppUIKIT */,
+				06F803A92CB8F25100E674E6 /* GithubAppUIKIT */,
 				0614CA692CB804A100C66FB9 /* GithubAppUIKITTests */,
 				0614CA732CB804A100C66FB9 /* GithubAppUIKITUITests */,
 				0614CA512CB8049F00C66FB9 /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0614CA522CB8049F00C66FB9 /* GithubAppUIKIT */,
+				06F803A92CB8F25100E674E6 /* GithubAppUIKIT */,
 			);
 			name = GithubAppUIKIT;
 			packageProductDependencies = (
@@ -293,7 +293,6 @@
 				INFOPLIST_FILE = GithubAppUIKIT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +319,6 @@
 				INFOPLIST_FILE = GithubAppUIKIT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
